@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	line-height: 3rem;
+	font-family: "Arial";
+	// overflow: hidden;
+}
+
+p {
+	font-size: 3rem;
+	padding: 0.5rem;
+}
+
+.button {
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	width: 400px;
+	height: 400px;
+}
+
+#blob {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+// #blob {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	z-index: -100;
+// }
+
+// #resume {
+// 	position: relative;
+// 	top: 100%;
+// 	left: 0;
+// }
+
+/* The typing effect */
+// @keyframes typing {
+// 	0% {
+// 		// width: 0;
+// 	}
+// 	1% {
+// 		opacity: 1;
+// 	}
+
+// 	100% {
+// 		opacity: 1;
+// 	}
+// }
+
+/* The typewriter cursor effect */
+// @keyframes blink-caret {
+// 	from,
+// 	to {
+// 		border-color: transparent;
+// 	}
+// 	50% {
+// 		border-color: orange;
+// 	}
+// }
+
+// @keyframes fadeInScroll {
+// 	0% {
+// 		opacity: 0;
+// 		width: 0;
+// 	}
+
+// 	100% {
+// 		opacity: 1;
+// 		width: 25rem;
+// 	}
+// }
+
+// .fade-in p {
+// 	overflow: hidden; /* Ensures the content is not revealed until the animation */
+// 	white-space: nowrap; /* Keeps the content on a single line */
+// 	// margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+// 	letter-spacing: 0.15em; /* Adjust as needed */
+// 	position: relative;
+// 	top: 50vh;
+// 	left: 25%;
+// }
+
+// .fade-in p:nth-child(1) {
+// 	width: 23rem;
+// 	animation: fadeInScroll 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+// 	animation-fill-mode: forwards;
+// }
+
+// $color: #e94e3d;
+
+// .circle {
+// 	position: relative;
+// 	top: 50%;
+// 	left: 50%;
+// 	overflow: hidden;
+// 	width: 20rem;
+// 	height: 20rem;
+// 	// border: 1rem solid $color;
+// 	border-radius: 50%;
+// 	background: #e94e3d;
+// 	box-shadow: 10rem -10rem 0 1rem $color, -10rem -10rem 0 1rem $color,
+// 		-10rem 10rem 0 1rem $color, 10rem 10rem 0 1rem $color, 0 0 0 1rem $color;
+// 			animation: drawBorder 0.4s ease 1 forwards;
+// }
+
+// @keyframes drawBorder {
+// 	0% {
+// 		box-shadow: 10rem -10rem 0 1rem $color, -10rem -10rem 0 1rem $color,
+// 			-10rem 10rem 0 1rem $color, 10rem 10rem 0 1rem $color,
+// 			0 0 0 1rem #e94e3d;
+// 	}
+// 	25% {
+// 		box-shadow: 0 -21rem 0 1rem $color, -10rem -10rem 0 1rem $color,
+// 			-10rem 10rem 0 1rem $color, 10rem 10rem 0 1rem $color, 0 0 0 1rem #fff;
+// 	}
+// 	50% {
+// 		box-shadow: 0 -21rem 0 1rem $color, -21rem 0px 0 1rem $color,
+// 			-10rem 10rem 0 1rem $color, 10rem 10rem 0 1rem $color, 0 0 0 1rem #fff;
+// 	}
+// 	75% {
+// 		box-shadow: 0 -21rem 0 1rem $color, -21rem 0px 0 1rem $color,
+// 			0px 21rem 0 1rem $color, 10rem 10rem 0 1rem $color, 0 0 0 1rem #fff;
+// 	}
+// 	100% {
+// 		box-shadow: 0 -21rem 0 1rem $color, -21rem 0px 0 1rem $color,
+// 			0px 21rem 0 1rem $color, 120px 40px 0 1rem $color, 0 0 0 1rem #fff;
+// 	}
+// }
+
+// .typewriter h1:nth-child(2) {
+// 	width: 23rem;
+// 	opacity: 0;
+// 	animation: typing 3s steps(20, end) 3s, blink-caret 2.75s step-end infinite alternate;
+// 	animation-fill-mode: forwards;
+// }
+
+// html{
+// 	height: 100%;
+//   }
+
+//   body{
+// 	height: 100%;
+// 	background: #E94E3D;
+//   }
+
+//   .wrap{
+// 	margin: 100px auto;
+// 	width: 130px;
+//   }
+
+//   $color: #E94E3D;
+
+//   .circle{
+// 	position: relative;
+// 	overflow: hidden;
+// 	width: 120px;
+// 	height: 120px;
+// 	border-radius: 50%;
+// 	background: #E94E3D;
+// 	box-shadow: 60px -60px 0 2px $color, -60px -60px 0 2px $color, -60px 60px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px #E94E3D;
+
+// 	&:hover{
+// 	  animation: border .4s ease 1 forwards;
+// 	//   cursor: none;
+
+// 	}
+//   }
+
+//   @keyframes border{
+// 	0% {
+// 	  box-shadow: 60px -60px 0 2px $color, -60px -60px 0 2px $color, -60px 60px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px #E94E3D;
+// 	}
+// 	25% {
+// 	  box-shadow: 0 -125px 0 2px $color, -60px -60px 0 2px $color, -60px 60px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px #fff;
+// 	}
+// 	50% {
+// 	  box-shadow: 0 -125px 0 2px $color, -125px 0px 0 2px $color, -60px 60px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px #fff;
+// 	}
+// 	75% {
+// 	  box-shadow: 0 -125px 0 2px $color, -125px 0px 0 2px $color, 0px 125px 0 2px $color, 60px 60px 0 2px $color, 0 0 0 2px #fff;
+// 	}
+// 	100% {
+// 	  box-shadow: 0 -125px 0 2px $color, -125px 0px 0 2px $color, 0px 125px 0 2px $color, 120px 40px 0 2px $color, 0 0 0 2px #fff;
+// 	}
+//   }
+
+//   @keyframes icon1{
+// 	0% {top: -25px;}
+// 	100% {top: 10px;}
+//   }
+
+//   @keyframes icon2{
+// 	0% {left: -20px;}
+// 	100% {left: 15px;}
+//   }
+
+//   @keyframes icon3{
+// 	0% {bottom: -25px;}
+// 	100% {bottom: 10px;}
+//   }
+
+//   @keyframes icon4{
+// 	0% {right: -25px;}
+// 	100% {right: 15px;}
+//   }
+
+//   @keyframes line{
+// 	0%{
+// 	  left: 60px;
+// 	  width: 0;
+// 	}
+// 	100% {
+// 	  left: 10px;
+// 	  width: 100px;
+// 	}
+//   }
