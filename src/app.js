@@ -1,10 +1,10 @@
 import "./style.scss";
-import Button from "./components/AnimatedCircle";
+import HelloWorld from "./components/HelloWorld";
 
 window.onload = () => {
 
 	const container = document.querySelector('#blob')
-	new Button({
+	new HelloWorld({
 		dom: container,
 		camera: {
 			position: {
